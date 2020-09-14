@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import Burner.Temperature;
+
 /**
  * Stove class. 
  *  
@@ -30,7 +32,18 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {
-
+		boolean hotBurnerAlert = false;
+		for(int i = 0; i < NUM_BURNERS; i++) {
+			burners.get(i).display();
+			switch(burners.get(i).getMyTemp()) {
+			case BLAZING:
+				hotBurnerAlert = true;
+			}
+		}
+		if(hotBurnerAlert) {
+			System.out.println("RED LIGHT - HOT BURNER ALERT");
+		}
+		
 	}
 	
 	/**
