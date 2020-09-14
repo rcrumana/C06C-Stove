@@ -3,21 +3,21 @@ public class Burner {
 	public enum Temperature{ BLAZING, HOT, WARM, COLD };
 	private Temperature myTemperature;
 
-	public Temperature getMyTemp() {
+	public Temperature getMyTemp() { 			//getter for mytemperature
 		return myTemperature;
 	}
 
-	private Setting mySetting;
+	private Setting mySetting;  				//instance of the setting enum
 	public int timer;
 
-	public final static int TIME_DURATION = 2;
+	public final static int TIME_DURATION = 2;  //time iterator as per instructions
 
-	public Burner() {
+	public Burner() {							//burner constructor
 		myTemperature = Temperature.COLD;
 		mySetting = Setting.OFF;
 	}
 
-	public void plusButton() {
+	public void plusButton() {					//plus button method which increases the temperature and resets the timer
 		switch(mySetting){
 		   case OFF:
 			   mySetting = Setting.LOW;
@@ -29,16 +29,16 @@ public class Burner {
 			   mySetting = Setting.HIGH;
 			   break;
 		   case HIGH:
-			   // The burner is already at the highest setting
+			   // The burner is already at the highest setting     (It said to make a message but none was provided in the output)
 			   break;
 		}
 		this.timer = 0;
 	}
 
-	public void minusButton() {
+	public void minusButton() {					//minus button method which decreases the temperature and resets the timer
 		switch(mySetting){
 		   case OFF:
-			   System.out.println("The burner is already off");
+			   // The burner is already off		(It said to make a message but none was provided in the output)
 			   break;
 		   case LOW:
 			   mySetting = Setting.OFF;
@@ -50,13 +50,13 @@ public class Burner {
 			   mySetting = Setting.MEDIUM;
 			   break;
 		}
-		this.timer = 0;
+		this.timer = 0;							//resetting timer
 	}
 
 	public void updateTemperature() {
-		if(timer != 0)
+		if(timer != 0)							// checks if there has been a passage of time since the last temperature change
 		{
-			switch(mySetting){
+			switch(mySetting){					//switch to change the temperature of the burner
 			case OFF:
 				myTemperature = Temperature.COLD;
 				break;
@@ -71,12 +71,12 @@ public class Burner {
 				break;
 			}
 		}
-		this.timer += TIME_DURATION;
+		this.timer += TIME_DURATION;			//incrementing of "time"
 	}
 
-	public void display() {
-		System.out.print(mySetting + ".....");
-		switch(myTemperature){
+	public void display() {						//Display method for burner
+		System.out.print(mySetting + ".....");  // using setting toString
+		switch(myTemperature){					// switch for the temperature related message
 		   case COLD:
 			   System.out.println("cooool");
 			   break;
