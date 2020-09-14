@@ -1,0 +1,64 @@
+commit 256eb8a23ebbff7f4a4f147f32e13f8c3745b3e1
+Author: alexmartgon <alexmartgon@gmail.com>
+Date:   Mon Sep 14 16:52:25 2020 -0600
+
+    Added displayStove()
+
+commit 7343fda3a5479b3d96109ff67d7099aa4d350915
+Author: alexmartgon <alexmartgon@gmail.com>
+Date:   Mon Sep 14 16:26:45 2020 -0600
+
+    Fixed Github
+
+commit da722f21588d92fb69ff050725f4b442973483ad
+Author: Ryan Rumana <56176109+rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 15:37:11 2020 -0600
+
+    Create README.md
+
+commit ebe1637cd7cce52a0ba3be894d8121cf4eed2a65
+Author: rcrumana <rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 15:33:19 2020 -0600
+
+    Create Stove.java
+
+commit 6e703efb555bf3d5bc256c5b47167d341abfd571
+Author: rcrumana <rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 15:25:30 2020 -0600
+
+    Initial commit
+commit 4a445811413dcd1c632a61c75a8ba8ef41535727
+Author: rcrumana <rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 17:09:40 2020 -0600
+
+    Update Burner.java
+
+commit 256eb8a23ebbff7f4a4f147f32e13f8c3745b3e1
+Author: alexmartgon <alexmartgon@gmail.com>
+Date:   Mon Sep 14 16:52:25 2020 -0600
+
+    Added displayStove()
+
+commit 7343fda3a5479b3d96109ff67d7099aa4d350915
+Author: alexmartgon <alexmartgon@gmail.com>
+Date:   Mon Sep 14 16:26:45 2020 -0600
+
+    Fixed Github
+
+commit da722f21588d92fb69ff050725f4b442973483ad
+Author: Ryan Rumana <56176109+rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 15:37:11 2020 -0600
+
+    Create README.md
+
+commit ebe1637cd7cce52a0ba3be894d8121cf4eed2a65
+Author: rcrumana <rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 15:33:19 2020 -0600
+
+    Create Stove.java
+
+commit 6e703efb555bf3d5bc256c5b47167d341abfd571
+Author: rcrumana <rcrumana@users.noreply.github.com>
+Date:   Mon Sep 14 15:25:30 2020 -0600
+
+    Initial commit
